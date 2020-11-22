@@ -15,3 +15,6 @@ class ScrapedData(models.Model):
     age_group_the_app_is_targeted_at_children_mature_adult = models.CharField(default='', blank=False, null=True,
                                                                               max_length=4200)
     an_app_can_belong_to_multiple_genres = models.CharField(default='', blank=False, null=True, max_length=4200)
+
+    def __str__(self):
+        return self.application_name

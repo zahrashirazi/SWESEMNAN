@@ -23,7 +23,7 @@ class AddData(APIView):
             an_app_can_belong_to_multiple_genres = request.POST.get('an_app_can_belong_to_multiple_genres', None)
 
             try:
-                add_to_db = ScrapedData.objects.get_or_create(application_name=application_name)
+                add_to_db, created = ScrapedData.objects.get_or_create(application_name=application_name)
                 add_to_db.category_the_app_belongs = category_the_app_belongs
                 add_to_db.overall_user_rating_of_the_app = overall_user_rating_of_the_app
                 add_to_db.number_of_user_reviews_for_the_app = number_of_user_reviews_for_the_app
