@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9a9cc69-fd7c-4902-90bf-9b5fcb571b78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/SWESEMNAN.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../API/.idea/API.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebSite/.idea/WebSite.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/WebScraper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WebScraper.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/API/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../API/API/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/APIAPP/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../API/APIAPP/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +34,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WebSite" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\ForPeople\Zahra\SWESEMNAN\WebScraper" />
       <recent name="D:\Projects\ForPeople\Zahra\WebScraper" />
     </key>
   </component>
@@ -87,7 +85,10 @@
       <workItem from="1604518680732" duration="4496000" />
       <workItem from="1604527935461" duration="654000" />
       <workItem from="1604586777343" duration="37000" />
-      <workItem from="1605427313001" duration="917000" />
+      <workItem from="1605427313001" duration="1355000" />
+      <workItem from="1605978443212" duration="2334000" />
+      <workItem from="1605991198837" duration="605000" />
+      <workItem from="1606036230742" duration="2337000" />
     </task>
     <servers />
   </component>
@@ -95,40 +96,44 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="507" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606037704857">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="507" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1606037704857" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1605427968987">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605427968987" />
-    <state width="1493" height="417" key="GridCell.Tab.0.bottom" timestamp="1604528589359">
+    <state width="1493" height="417" key="GridCell.Tab.0.bottom" timestamp="1606037618923">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="417" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604528589359" />
-    <state width="1493" height="417" key="GridCell.Tab.0.center" timestamp="1604528589359">
+    <state width="1493" height="417" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606037618923" />
+    <state width="1493" height="417" key="GridCell.Tab.0.center" timestamp="1606037618923">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="417" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604528589359" />
-    <state width="1493" height="417" key="GridCell.Tab.0.left" timestamp="1604528589359">
+    <state width="1493" height="417" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606037618923" />
+    <state width="1493" height="417" key="GridCell.Tab.0.left" timestamp="1606037618923">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="417" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604528589359" />
-    <state width="1493" height="417" key="GridCell.Tab.0.right" timestamp="1604528589359">
+    <state width="1493" height="417" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606037618923" />
+    <state width="1493" height="417" key="GridCell.Tab.0.right" timestamp="1606037618923">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="417" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604528589359" />
+    <state width="1493" height="417" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606037618923" />
     <state x="277" y="55" key="SettingsEditor" timestamp="1605427971735">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605427971735" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1604586806051">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1606036230990">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1604586806051" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1606036230990" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1604520303854">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1604520303854" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/WebScraper$Scraper.coverage" NAME="Scraper Coverage Results" MODIFIED="1604528217889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WebScraper$Scraper.coverage" NAME="Scraper Coverage Results" MODIFIED="1606037236914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
