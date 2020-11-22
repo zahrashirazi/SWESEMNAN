@@ -7,8 +7,8 @@ from selenium.webdriver.chrome.options import Options
 class Scraper:
     def __init__(self):
         chrome_options = Options()
-        # chrome_options.add_argument("--no-sandbox")  # Bypass OS security model
-        # chrome_options.add_argument("--headless")
+        chrome_options.add_argument("--no-sandbox")  # Bypass OS security model
+        chrome_options.add_argument("--headless")
         # chrome_options.add_argument("user-data-dir=scraper")
 
         self.driver = webdriver.Chrome(chrome_options=chrome_options, executable_path='chromedriver.exe')
@@ -91,8 +91,3 @@ class Scraper:
             self.data[application_name] = temp
 
 
-sc = Scraper()
-sc.scraper(number=200)
-for key, value in sc.data.items():
-    print(key, value)
-sc.driver.close()

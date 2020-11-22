@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9a9cc69-fd7c-4902-90bf-9b5fcb571b78" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../API/API/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../API/API/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API/APIAPP/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../API/APIAPP/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scraper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +86,7 @@
       <workItem from="1605427313001" duration="1355000" />
       <workItem from="1605978443212" duration="2334000" />
       <workItem from="1605991198837" duration="605000" />
-      <workItem from="1606036230742" duration="2337000" />
+      <workItem from="1606036230742" duration="4339000" />
     </task>
     <servers />
   </component>
@@ -104,22 +102,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605427968987" />
-    <state width="1493" height="417" key="GridCell.Tab.0.bottom" timestamp="1606037618923">
+    <state width="1493" height="239" key="GridCell.Tab.0.bottom" timestamp="1606043674045">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="417" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606037618923" />
-    <state width="1493" height="417" key="GridCell.Tab.0.center" timestamp="1606037618923">
+    <state width="1493" height="239" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606043674045" />
+    <state width="1493" height="239" key="GridCell.Tab.0.center" timestamp="1606043674045">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="417" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606037618923" />
-    <state width="1493" height="417" key="GridCell.Tab.0.left" timestamp="1606037618923">
+    <state width="1493" height="239" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606043674045" />
+    <state width="1493" height="239" key="GridCell.Tab.0.left" timestamp="1606043674045">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="417" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606037618923" />
-    <state width="1493" height="417" key="GridCell.Tab.0.right" timestamp="1606037618923">
+    <state width="1493" height="239" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606043674045" />
+    <state width="1493" height="239" key="GridCell.Tab.0.right" timestamp="1606043674045">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="417" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606037618923" />
+    <state width="1493" height="239" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606043674045" />
     <state x="277" y="55" key="SettingsEditor" timestamp="1605427971735">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -134,6 +132,6 @@
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1604520303854" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/WebScraper$Scraper.coverage" NAME="Scraper Coverage Results" MODIFIED="1606037236914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WebScraper$Scraper.coverage" NAME="Scraper Coverage Results" MODIFIED="1606043461010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
