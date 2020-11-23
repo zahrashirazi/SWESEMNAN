@@ -17,4 +17,7 @@ class ScrapedData(models.Model):
     an_app_can_belong_to_multiple_genres = models.CharField(default='', blank=False, null=True, max_length=4200)
 
     def __str__(self):
-        return self.application_name
+        if self.application_name is not None:
+            return self.application_name
+        else:
+            return 'None'
