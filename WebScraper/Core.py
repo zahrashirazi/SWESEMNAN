@@ -7,8 +7,7 @@ get_data_url = 'https://pythonapp.ir/api/get'
 
 
 def get_data(number):
-    data = {"number": str(number)}
-    request = requests.get(url=get_data_url, data=data)
+    request = requests.get(url=get_data_url + '?number={}'.format(str(number)))
     return request.json()
 
 
