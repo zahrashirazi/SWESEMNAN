@@ -8,7 +8,10 @@ get_data_url = 'https://pythonapp.ir/api/get'
 
 def get_data(number):
     request = requests.get(url=get_data_url + '?number={}'.format(str(number)))
-    return request.json()
+    try:
+        return request.json()
+    except:
+        return request.text
 
 
 def send_data(application_name,
@@ -62,7 +65,6 @@ def call_send(number: int):
             )
         )
         print(key, value)
-    print(get_data(0))
 
 
 def call_get(number: int):
@@ -74,5 +76,5 @@ def call_get(number: int):
 
 
 if __name__ == "__main__":
-    # call_send(1)
+    call_send(1)
     call_get(0)
