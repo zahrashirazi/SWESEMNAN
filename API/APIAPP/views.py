@@ -50,7 +50,7 @@ class SendData(APIView):
     def get(self, request, format=None):
         try:
             data = {}
-            number = int(request.POST.get('number', None))
+            number = int(request.GET.get('number', None))
             try:
                 from_db = ScrapedData.objects.all()[number]
                 data['application_name'] = from_db.application_name

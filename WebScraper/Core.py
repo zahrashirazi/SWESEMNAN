@@ -42,23 +42,38 @@ def send_data(application_name,
     except:
         return request.text
 
-sc = Scraper()
-sc.scraper(number=50)
-sc.driver.close()
-for key, value in sc.data.items():
+
+def call_send(number: int):
+    sc = Scraper()
+    sc.scraper(number=number)
+    sc.driver.close()
+    for key, value in sc.data.items():
+        print(
+            send_data(
+                application_name=str(key),
+                category_the_app_belongs=str(value[0]),
+                overall_user_rating_of_the_app=str(value[1]),
+                number_of_user_reviews_for_the_app=str(value[2]),
+                size_of_the_app=str(value[3]),
+                number_of_user_downloads_installs_for_the_app=str(value[4]),
+                paid_or_free=str(value[5]),
+                price_of_the_app=str(value[6]),
+                age_group_the_app_is_targeted_at_children_mature_adult=str(value[7]),
+                an_app_can_belong_to_multiple_genres=str(value[8]),
+            )
+        )
+        print(key, value)
+    print(get_data(0))
+
+
+def call_get(number: int):
     print(
-        send_data(
-            application_name=str(key),
-            category_the_app_belongs=str(value[0]),
-            overall_user_rating_of_the_app=str(value[1]),
-            number_of_user_reviews_for_the_app=str(value[2]),
-            size_of_the_app=str(value[3]),
-            number_of_user_downloads_installs_for_the_app=str(value[4]),
-            paid_or_free=str(value[5]),
-            price_of_the_app=str(value[6]),
-            age_group_the_app_is_targeted_at_children_mature_adult=str(value[7]),
-            an_app_can_belong_to_multiple_genres=str(value[8]),
+        get_data(
+            number=str(number)
         )
     )
-    print(key, value)
-print(get_data(0))
+
+
+if __name__ == "__main__":
+    # call_send(1)
+    call_get(0)
